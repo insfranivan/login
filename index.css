@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #390099;
+    font-family: Quicksand, sans-serif;
+}
+
+.contenedor{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    background-color: #FF0054;
+    width: 40%;
+    height: 40%;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    
+}
+
+.boton{
+    margin-top: 20px;
+    width: 80%;
+    height: 35px;
+    border-style: none;
+    border-radius: 15px;
+    background-color: #390099;
+    color: white;
+
+}
+
+label{
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 0.9em;
+    width: 80%;
+}
+
+input{
+    margin-top: 10px;
+    border-radius: 15px;
+    border-style: none;
+    height: 35px;
+    width: 80%;
+
+}
+
+.vino{
+    height: 80%;
+
+}
